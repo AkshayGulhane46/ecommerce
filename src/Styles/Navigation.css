@@ -1,0 +1,47 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  .menu.open {
+    display: block;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white
+  }
+  
+  .menu-toggle {
+    display: none;
+  }
+  
+  .menu-items{
+    display: flex;
+  }
+
+  .menu-item{
+    color: white;
+    padding-left: 10px;
+  }

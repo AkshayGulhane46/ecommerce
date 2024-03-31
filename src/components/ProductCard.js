@@ -13,9 +13,9 @@ const ProductCard = ({ product }) => {
     <div className="product-card">
       <img src="images/download.jpeg" alt="" className="product-image" />
       <div className="product-details">
-        <h3 className="product-name">Name of product</h3>
-        <p className="product-price">$200</p>
-        <p className="product-price">$200</p>
+        <div><h3 className="product-name">Name of product</h3></div>
+        <div><p className="product-price">$200</p></div>
+        <div><p className="product-price">$200</p></div>
       </div>
       <button className="add-to-cart-button" onClick={addToCart}>Add to Cart</button>
     </div>
